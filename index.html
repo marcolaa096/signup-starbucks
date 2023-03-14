@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BRS">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-Up - Starbucks</title>
+        <link rel="stylesheet" href="./CSS/reset.css">
+        <link rel="stylesheet" href="./CSS/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <img src="./img/Starbucks-logo (1).png" alt="Akatsuki logo">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </header>
+
+        <div class="signup-form">
+            <h1>Sign Up</h1>
+            <h4>Became part of this amazing coffee lovers family!</h4>
+
+            <label for="first name">Your First Name</label><br>
+            <input type="text" class="text" placeholder="Name"><br>
+
+            <label for="surname">Your Surname</label><br>
+            <input type="text" class="text" placeholder="Surname"><br>
+
+            <label for="gender">Gender</label><br>
+            <div class="gender" id="gender">
+                <input type="radio" name="gender">
+                <label for="Men">Men</label>
+                <input type="radio" name="gender">
+                <label for="Woman">Woman</label>
+                <input type="radio" name="gender">
+                <label for="binary">Binary</label>
+            </div>
+
+            <label for="country">Your Country</label><br>
+            <select name="country" id="country">
+                <option value="australia">Brazil</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select><br>
+
+            
+            <label for="email">What is you email?</label><br>
+            <input type="email" class="text" placeholder="example@example.com"><br>
+
+            <label for="password">Your password</label><br>
+            <input type="password" class="text" name="password"><br>
+
+            <div class="terms">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">I agree with the <a href="#">Terms of use</a>
+                and <a href="#">Conditions</a>.</label>
+            </div>
+            <input type="submit" value="Submit" class="submit-button"><br>
+            
+        </div>
+    </body>
+    
+</html>

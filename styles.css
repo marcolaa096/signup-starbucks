@@ -1,0 +1,158 @@
+body {
+    background-color: #acccbc;
+    background-size: 100%;
+    overflow: auto;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #046d3c;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a { 
+   position: relative;
+   text-decoration: none;
+   color: aliceblue;
+   font-size: 18px;
+   letter-spacing: 0.5px;
+   padding: 0 10px;
+   text-shadow: 0.15em 0.15em 0.05em #124e48;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: aliceblue;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.4s;
+    box-shadow: 0.15em 0.15em 0.05em #124e48;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.button input {
+    margin-right: 10px;
+    font-size: 15;
+    text-decoration: none;
+    outline: 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 22px;
+    border-color: #9adfc2;
+    background-color: #377771;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0.15em 0.15em 0.05em #124e48;
+    box-shadow: 0 10px 35px #124e48;
+}
+
+.button input:hover {
+    color: #377771;
+    border: #124e48;
+    background-color: #eeee;
+    transition: 0.4s;
+    text-shadow: 0.1em 0.1em 0.05em #ababab;
+}
+
+.signup-form {
+    width: 360px;
+    height: 670px;
+    margin: 50px auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 20px 35px #124e26;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: #124e48;
+}
+
+h4 {
+    text-align: center;
+    color: #046d3c;
+}
+
+h5 {
+    padding-top: 0px;
+    text-align: center;
+    color: #046d3c;
+}
+
+label {
+    font-size: 18px;
+    color: #124e48;
+}
+
+.text {
+    width: 99%;
+    height: 40px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    background-color: #e4e4e4;
+    color: #124e48;
+}
+
+div label {
+    padding-right: 20px;
+}
+
+select {
+    width: 99%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    color: #7c7c7c;
+    background-color: #e4e4e4;
+}
+
+option {
+    color: #7c7c7c;
+}
+
+.terms a{
+    text-decoration: none;
+    color: #8ac7ad;
+}
+
+
+.submit-button {
+    width: 100px;
+    height: 40px;
+    outline: 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    border-color: #9adfc2;
+    background-color: #377771;
+    color: #fff;
+    text-shadow: 0.15em 0.15em 0.05em #124e48;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 120px;
+}
+
+.submit-button:hover {
+    color: #377771;
+    border: 0.5px solid #124e26;
+    background-color: #eeee;
+    transition: 0.4s;
+    text-shadow: 0.1em 0.1em 0.05em #ababab;
+}
